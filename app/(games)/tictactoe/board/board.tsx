@@ -1,6 +1,6 @@
 "use client";
 
-import Square from "../square/square";
+import Square from "./square/square";
 import { useState } from "react";
 
 function calculateWinner(squares: (string | null)[]) {

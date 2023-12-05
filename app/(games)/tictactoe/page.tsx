@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Board from "./board/board";
 
 export default function TicTacToe() {
