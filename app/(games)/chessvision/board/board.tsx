@@ -5,7 +5,7 @@ export default function Board() {
     <div className="flex justify-center">
       <div
         id="white-board"
-        className="grid grid-cols-8 auto-rows-fr auto-cols-fr w-72 h-72 lg:w-[35rem] lg:h-[35rem]"
+        className="grid grid-cols-8 auto-rows-fr auto-cols-fr w-80 h-80 lg:w-[35rem] lg:h-[35rem]"
       >
         <Square coordinate="a8" color="white" />
         <Square coordinate="b8" color="black" />

@@ -104,7 +104,7 @@ export default function ChessVission() {
         <Board />
         <button
           onClick={startGame}
-          className="bg-green-700 rounded-md py-2 px-4 mt-5"
+          className="bg-purple-800 rounded-md py-2 px-4 mt-5"
         >
           Start
         </button>
