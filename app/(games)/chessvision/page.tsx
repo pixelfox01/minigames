@@ -118,7 +118,7 @@ export default function ChessVission() {
         {isGameStarted && <div className="h-16 text-2xl">Lives: {lives}</div>}
 
         {curCoordinate && (
-          <div className="h-16 text-2xl">Click on: curCoordinate</div>
+          <div className="h-16 text-2xl">Click on: {curCoordinate}</div>
         )}
 
         {!isGameStarted && (
