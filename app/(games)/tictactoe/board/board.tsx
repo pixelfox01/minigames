@@ -45,7 +45,7 @@ export default function Board() {
   if (winner) {
     status = "Winner: " + winner.winner;
   } else {
-    status = "Next player: " + (xIsNext ? "X" : "O");
+    status = "Next: " + (xIsNext ? "X" : "O");
   }
 
   return (
@@ -63,7 +63,7 @@ export default function Board() {
         <Square value={squares[8]} onSquareClick={() => onSquareClick(8)} />
       </div>
       <button
-        className="text-2xl rounded-md px-4 py-3 mt-10 bg-red-900 hover:bg-red-950"
+        className="text-xl rounded-md px-3 py-2 mt-10 bg-red-900 hover:bg-red-950"
         onClick={() => {
           setSquares(Array(9).fill(null));
           setXIsNext(true);
