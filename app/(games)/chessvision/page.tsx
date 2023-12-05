@@ -3,12 +3,6 @@
 import { useState, createContext } from "react";
 import Board from "./board/board";
 
-export const ChessVisionContext = createContext({
-  curCoordinate: null as null | string,
-  getNextCoordinate: () => {},
-  isGameStarted: false,
-});
-
 export default function ChessVission() {
   const [curCoordinate, setCurCoordinate] = useState<string | null>(null);
   const [isGameStarted, setIsGameStarted] = useState(false);
@@ -112,3 +106,9 @@ export default function ChessVission() {
     </ChessVisionContext.Provider>
   );
 }
+
+export const ChessVisionContext = createContext({
+  curCoordinate: null as null | string,
+  getNextCoordinate: () => {},
+  isGameStarted: false,
+});
