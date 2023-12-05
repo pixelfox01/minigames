@@ -7,7 +7,7 @@ export default function GamesLayout({
 }) {
   return (
     <div>
-      <div className="mt-2">
+      <div className="pt-2">
         <Link href="/" className="hover:underline text-lg pl-2">
           Back to home
         </Link>
